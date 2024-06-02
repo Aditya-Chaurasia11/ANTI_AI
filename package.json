@@ -1,0 +1,40 @@
+{
+  "name": "next-wagmi",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@lit-protocol/auth-browser": "^5.1.0",
+    "@lit-protocol/constants": "^5.1.0",
+    "@lit-protocol/lit-node-client": "^5.1.0",
+    "@tanstack/react-query": "5.0.5",
+    "axios": "^1.7.2",
+    "eslint": "^9.3.0",
+    "eslint-config-next": "^14.2.3",
+    "ethers": "^6.12.1",
+    "next": "13.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "latest",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.2",
+    "@types/react": "^18.2.23",
+    "@types/react-dom": "^18.2.8",
+    "@wagmi/cli": "latest",
+    "bufferutil": "^4.0.7",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "pino-pretty": "^10.2.0",
+    "supports-color": "^9.4.0",
+    "typescript": "^5.2.2",
+    "utf-8-validate": "^6.0.3"
+  }
+}
